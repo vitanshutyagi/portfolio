@@ -35,13 +35,17 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
+import hbLogo from './assets/company_logo/hb_Logo.png'
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+// import vpsLogo from './assets/education_logo/vps_logo.png';
+import rd_logo from './assets/education_logo/rd_logo.jpg'
+import hcs_logo from'./assets/education_logo/hcs_logo.png'
+import pws_logo from './assets/education_logo/pws_logo.jpg'
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -61,40 +65,40 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
+      // { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
+      // { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
+      // { name: 'GSAP', logo: gsapLogo },
+      // { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      // { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      // { name: 'Firebase', logo: firebaseLogo },
+      // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
     title: 'Languages',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
+      // { name: 'C', logo: cLogo },
+      // { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
+      // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      // { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -107,7 +111,7 @@ export const SkillsInfo = [
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      // { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -115,7 +119,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
+      img: hbLogo,
       role: "Fullstack Developer",
       company: "Webverse Digital",
       date: "April 2024 - Present",
@@ -125,85 +129,86 @@ export const SkillsInfo = [
         "CSS",
         "JavaScript",
         "React JS",
-        "TypeScript",
+        // "TypeScript",
         "Node JS",
         "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
         "Bootstrap",
-        "Figma",
-        "Material UI",
+        "MySQL",
+        // "Redux",
+        // " Next Js",
       ],
     },
+    // {
+    //   id: 1,
+    //   img: agcLogo,
+    //   role: "Fullstack Engineer",
+    //   company: "Agumentik Group of Companies",
+    //   date: "July 2023 - March 2024",
+    //   desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    //   skills: [
+    //     "ReactJS",
+    //     "Redux",
+    //     "JavaScript",
+    //     "Tailwind CSS",
+    //     "HTML",
+    //     "CSS",
+    //     "SQL",
+    //   ],
+    // },
+    // {
+    //   id: 2,
+    //   img: newtonschoolLogo,
+    //   role: "Frontend Intern",
+    //   company: "Newton School",
+    //   date: "September 2021 - August 2022",
+    //   desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+    //   skills: [
+    //     "HTML",
+    //     "CSS",
+    //     "Javascript",
+    //     "Bootstrap",
+    //     "Figma",
+    //     "Material UI",
+    //   ],
+    // },
   ];
   
   export const education = [
+    // {
+    //   id: 0,
+    //   img: glaLogo,
+    //   school: "GLA University, Mathura",
+    //   date: "Sept 2022 - July 2024",
+    //   grade: "7.81 CGPA",
+    //   desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+    //   degree: "Master of Computer Applications - MCA",
+    // },
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: bsaLogo,
+      school: "RD Engineering College, Duhai",
+      date: "Sept 2020 - Aug 2024",
+      grade: "73.2%",
+      desc: "I completed my Bachelor's degree in Computer Science (BTech) from RD Engineering College, Duhai, Ghaziabad(UP). Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at RD Engineering College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      degree: "Btech (Machine Learning & Artificial Intelligence)",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: pws_logo,
+      school: "Partap World School, Pathankot",
+      date: "2019-20",
+      grade: "82%",
+      desc: "I completed my class 12 education from Partap World School, Pathankot(Punjab), under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
+      degree: "CBSE(XII) - PCM",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      img: hcs_logo,
+      school: "Harsh Convent School, Suratgarh",
+      date: "2017-18",
+      grade: "84%",
+      desc: "I completed my class 10 education from Hash Convent School, Suratgarh(Rajasthan), under the CBSE board, where I studied Science with Computer.",
+      degree: "CBSE(X)",
     },
   ];
   
